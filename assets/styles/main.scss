@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'DidactGothic-Regular';
+  src: url('../../static/fonts/DidactGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Bold';
+  src: url('../../static/fonts/RobotoSlab-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow: hidden !important;
+}
+
+html,
+body {
+  font-family: 'DidactGothic-Regular';
+  height: 100%;
+  #__nuxt {
+    height: 100%;
+    #__layout {
+      height: 100%;
+      & > div {
+        height: 100%;
+      }
+    }
+  }
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
